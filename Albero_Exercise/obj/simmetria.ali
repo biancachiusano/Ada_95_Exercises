@@ -1,0 +1,115 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U simmetria%b		simmetria.adb		9004dc24 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W overall%s		overall.adb		overall.ali
+
+U simmetria%s		simmetria.ads		bd04f253 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W overall%s		overall.adb		overall.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D simmetria.ads		20231117131422 63eddceb simmetria%s
+D simmetria.adb		20231117131422 619681a6 simmetria%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [calculate_symmetry simmetria 4 13 none]
+G c Z s b [calculate_symmetry_two simmetria 5 13 none]
+G r s coordinate [calculate_symmetry simmetria 4 13 none] [coordinateIP overall 3 9 none]
+G r c none [calculate_symmetry simmetria 4 13 none] [deg_to_rad overall 13 13 none]
+G r c none [calculate_symmetry simmetria 4 13 none] [handle_lat overall 15 13 none]
+G r c none [calculate_symmetry simmetria 4 13 none] [handle_lon overall 16 13 none]
+G r s coordinate [calculate_symmetry_two simmetria 5 13 none] [coordinateIP overall 3 9 none]
+G r c none [calculate_symmetry_two simmetria 5 13 none] [deg_to_rad overall 13 13 none]
+G r c none [calculate_symmetry_two simmetria 5 13 none] [handle_lat overall 15 13 none]
+G r c none [calculate_symmetry_two simmetria 5 13 none] [handle_lon overall 16 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 1r23 2r6 2r29 3r6 3r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[14|46] 20|2w10 2r33
+X 5 a-numeri.ads
+16K13*Numerics 35e17 20|3r10 3r49
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 20|3w19 3r58
+X 7 a-ngelfu.ads
+94V13*Sin{float} 20|35s65[6|18] 64s65[6|18]
+104V13*Cos{float} 20|32s65[6|18] 61s65[6|18]
+X 13 a-textio.ads
+58K13*Text_IO 725e16 20|1w10 1r27
+X 18 overall.ads
+1K9*overall 23e12 19|1w6 1r19 20|4w6 4r19
+3R9*Coordinate 7e14 19|4r47 4r116 5r100 5r119 20|9r47 9r116 11r21 41r100
+. 41r119 43r21
+4f7*lon{float} 20|35m19 35r50 64m19 64r50
+5f7*lat{float} 20|32m19 32r50 61m19 61r50
+13V13*deg_to_rad{float} 20|29s14 58s14
+15V13*handle_lat{float} 20|32s26 61s26
+16V13*handle_lon{float} 20|35s26 64s26
+X 19 simmetria.ads
+2K9*simmetria 6l5 6e14 20|6b14 71l5 71t14
+4V13*calculate_symmetry{18|3R9} 4>32 4>59 4>81 4>95 20|9b13 39l8 39t26
+4r32 current_coor{18|3R9} 20|9b32 32r37 35r37
+4f59 current_dist{float} 20|9b59 19r10 22r32
+4f81 dist{float} 20|9b81 20r25 22r25 25r19
+4f95 theta{float} 20|9b95 14r21
+5V13*calculate_symmetry_two{18|3R9} 5>37 5>51 5>65 5>86 20|41b14 68l8 68t30
+5f37 dist{float} 20|41b38 50r25 50r34 52r25
+5f51 theta{float} 20|41b52 44r21
+5f65 current_dist{float} 20|41b66 49r10
+5r86 current_coor{18|3R9} 20|41b87 61r37 64r37
+X 20 simmetria.adb
+11r7 future_coor{18|3R9} 32m7 35m7 37r14
+13f7 new_dist{float} 25m7 26m7 26r19 32r56 35r56
+14f7 dir{float} 29m7 29r25 32r69 35r69
+15f7 dist_tmp{float} 20m13 22m13 25r26
+43r7 future_coor{18|3R9} 61m7 64m7 66r14
+44f7 dir{float} 58m7 58r25 61r69 64r69
+45f7 dist_tmp{float} 50m13 52m13 55m7 55r19 61r56 64r56
+

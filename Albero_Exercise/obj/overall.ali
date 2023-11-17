@@ -1,0 +1,146 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U overall%b		overall.adb		7598cbdd NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U overall%s		overall.ads		dee92eb8 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D overall.adb		20231115101158 81e1f890 overall%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-conca5.ads		20210520051132 875e432e system.concat_5%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [deg_to_rad overall 13 13 none]
+G c Z s b [rad_to_deg overall 14 13 none]
+G c Z s b [handle_lat overall 15 13 none]
+G c Z s b [handle_lon overall 16 13 none]
+G c Z s b [update_vars overall 17 14 none]
+G c Z s b [remove_spaces overall 20 13 none]
+G c Z s b [print_coors overall 21 14 none]
+G c Z s s [coordinateIP overall 3 9 none]
+G c Z s s [Tcoordinate_storeBIP overall 9 4 none]
+G c Z s s [Tdist_storeBIP overall 10 4 none]
+G c Z s s [Ttheta_storeBIP overall 11 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|1r6 1r23 2r6 2r24 3r6 3r45 4r6 4r33
+X 7 a-numeri.ads
+16K13*Numerics 35e17 22|2w10 2r28 3r10 3r49
+21N4*Pi 22|11r20 17r24
+X 8 a-nuelfu.ads
+18K22*Elementary_Functions[9|39] 22|3w19 3r58
+X 11 a-string.ads
+16K13*Strings 35e16 22|4r10 4r37
+X 14 a-strunb.ads
+83K21*Unbounded 765e26 22|4w18 4r45
+88R9*Unbounded_String<5|43R9> 744e15 22|80r22
+91r4*Null_Unbounded_String{88R9} 22|80r41
+117V13*To_String{string} 22|89s14
+144U14*Append 22|85s13
+X 17 a-textio.ads
+58K13*Text_IO 725e16 22|1w10 1r27
+506U14*Put_Line 22|95s10
+X 21 overall.ads
+1K9*overall 23l5 23e12 22|6b14 101l5 101t12
+3R9*Coordinate 7e14 9r45 17r39 18r41 22|69r39 70r41 71r18
+4f7*lon{float} 22|95r45
+5f7*lat{float} 22|96r47
+6f7*alt{float} 22|97r47
+9A9*Coordinate_Store(3R9)<integer> 21r41 22|92r41
+10A9*Dist_Store(float)<integer>
+11A9*Theta_Store(float)<integer>
+13V13*deg_to_rad{float} 13>24 22|9b13 12l8 12t18
+13f24 deg{float} 22|9b24 11r14
+14V13*rad_to_deg{float} 14>24 22|15b13 18l8 18t18
+14f24 rad{float} 22|15b24 17r14
+15V13*handle_lat{float} 15>24 22|22b13 31s20 36s20 42l8 42t18
+15f24 lat{float} 22|22b24 26r10 26r27 27r17 29r13 30r21 34r13 35r21 40r14
+16V13*handle_lon{float} 16>24 22|45b13 54s20 59s20 65l8 65t18
+16f24 lon{float} 22|45b24 49r10 49r28 50r17 52r13 53r21 57r13 58r21 63r14
+17U14*update_vars 17<26 18=26 22|69b14 75l8 75t19
+17r26 current{3R9} 22|69b26 73m7
+18r26 future{3R9} 22|70b26 73r18 74m7
+20V13*remove_spaces{string} 20>27 22|79b13 90l8 90t21
+20a27 actual{string} 22|79b27 83r16 84r13 85r34
+21U14*print_coors 21>26 22|92b14 99l8 99t19
+21a26 coor_store{9A9} 22|92b26 95r31 96r33 97r33
+X 22 overall.adb
+23f7 diff{float} 30m13 31r41 35m13 36r31
+24f7 control{float} 29r19 30r27 31r31 34r20 35r27 36r45
+46f7 diff{float} 53m13 54r31 58m13 59r31
+47f7 control{float} 52r19 53r27 54r38 57r20 58r27 59r38
+71r7 tmp_coor{21|3R9} 74r17
+80r7 no_space_str{14|88R9} 85m20 85r20 89r24
+83i11 I{integer} 84r20 85r41
+94i11 I{integer} 95r42 96r44 97r44
+

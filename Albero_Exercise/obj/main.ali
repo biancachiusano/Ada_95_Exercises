@@ -1,0 +1,216 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		7a0eaae7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W haversine%s		haversine.adb		haversine.ali
+W overall%s		overall.adb		overall.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_flt%s	s-valflt.ads		s-valflt.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+W terrapiatta%s		terrapiatta.adb		terrapiatta.ali
+W tests%s		tests.adb		tests.ali
+W vincenty%s		vincenty.adb		vincenty.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-direio.ads		20210520051128 a93c9b31 ada.direct_io%s
+D a-direio.adb		20210520051128 dc70efaa ada.direct_io%b
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strfix.ads		20210520051130 aeacf44c ada.strings.fixed%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D haversine.ads		20231116141540 195b35b6 haversine%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20231117131448 237a570d main%b
+D overall.ads		20231115140230 dee92eb8 overall%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-conca5.ads		20210520051132 875e432e system.concat_5%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-direio.ads		20210520051132 7c86ede3 system.direct_io%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-fileio.ads		20210520051132 45ce2f0f system.file_io%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valflt.ads		20210520051134 d738ba7d system.val_flt%s
+D s-valint.ads		20210520051134 e7fcadb7 system.val_int%s
+D s-valrea.ads		20210520051134 8ddc6624 system.val_real%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valuei.ads		20210520051134 978dd0a6 system.value_i%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D terrapiatta.ads	20231116141454 86ee166e terrapiatta%s
+D tests.ads		20231115113754 b31771dd tests%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D vincenty.ads		20231116141518 0281547c vincenty%s
+G a e
+G c Z b b [main standard 13 11 none]
+G r s Tcoordinate_storeB [main standard 13 11 none] [Tcoordinate_storeBIP overall 9 4 none]
+G r c none [main standard 13 11 none] [terra_piatta terrapiatta 5 13 none]
+G r c none [main standard 13 11 none] [haversine_distance haversine 5 13 none]
+G r c none [main standard 13 11 none] [vincenty_distance vincenty 4 13 none]
+G r c none [main standard 13 11 none] [remove_spaces overall 20 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 25|1r6 1r23 2r6 3r6 4r5 5r6 5r33 6r6
+X 4 a-direio.ads
+43k13*Direct_IO 193e18 25|2w10
+X 9 a-numeri.ads
+16K13*Numerics 35e17 25|3r10 4r9
+X 10 a-nuelfu.ads
+18K22*Elementary_Functions[11|39] 25|3w19 4r18
+X 11 a-ngelfu.ads
+52V13*Sqrt{float} 25|22s52[10|18] 22s79[10|18] 22s102[10|18] 23s42[10|18]
+X 13 a-string.ads
+16K13*Strings 35e16 25|5r10 5r37 6r10
+X 14 a-strfix.ads
+43K21*Fixed 1398e22 25|6w18
+X 17 a-strunb.ads
+83K21*Unbounded 765e26 25|5w18 5r45
+88R9*Unbounded_String<7|43R9> 744e15 25|32r15 42r24 44r17 45r15
+91r4*Null_Unbounded_String{88R9} 25|32r35 42r44 44r37 45r35
+93V13*Length{natural} 25|139s24
+104V13*To_Unbounded_String{88R9} 25|116s26 120s26 124s26 137s31
+117V13*To_String{string} 25|132s25 138s22 143s26
+X 20 a-textio.ads
+58K13*Text_IO 725e16 25|1w10 1r27
+65P9*File_Type 25|30r8 31r9
+67n23*In_File{67E9} 25|134r16
+67n32*Out_File{67E9} 25|132r15
+112U14*Open 25|132s7 134s7
+127U14*Close 25|159s7 160s7
+144U14*Reset 25|133s7
+310V13*End_Of_File{boolean} 25|135s17
+463U14*Put 25|69s7 72s10 77s10 82s10 91s10 111s10
+490V13*Get_Line{string} 25|137s51
+493V13*Get_Line{string} 25|69s77 73s31 78s36 83s36 92s36 111s59
+496U14*Put_Line 25|138s10 151s19
+506U14*Put_Line 25|68s7 86s7 87s7 88s7 95s16 97s16 100s16 105s7 106s7 107s7
+. 108s7 114s13 118s13 122s13 126s13
+X 22 haversine.ads
+3K9*haversine 13e14 25|8w6 119r23
+5V13*haversine_distance{26|9A9} 25|119s33
+X 25 main.adb
+13U11*Main 13b11 163l5 163t9
+15f4 distance{float} 69m53 115r47 119r52 123r50
+16f4 theta{float} 71r13 73m10 115r57 119r62 123r60
+17f4 origin_lon{float} 81r13 83m10 115r64 119r69 123r67
+18f4 origin_lat{float} 76r13 78m10 115r76 119r81 123r79
+20i4 mode{integer} 110r13 111m37 112r15
+22a4 dist_arr{26|10A9} 63r37 115r88 119r93 123r91
+25a4 theta_arr{26|11A9} 64r37 115r98 119r103 123r101
+27a4 result{26|9A9} 115m13 119m13 123m13 151r65 152r42 153r42
+30p4 F{20|65P9} 132m12 132r12 133m13 133r13 138r19 151r28 160m13 160r13
+31p4 Fg{20|65P9} 134m12 134r12 135r29 137r60 159m13 159r13
+32r4 File_Name{17|88R9} 116m13 120m13 124m13 132r35
+33a4 piatta_file{string} 116r46
+34a4 sferica_file{string} 120r46
+35a4 vinc_file{string} 124r46
+36a4 General_File{string} 134r25
+38i4 wanted_len{integer} 139m10 141r13
+39a4 wanted_str{string} 149r26
+40a4 str_bed{string} 146m16 149r16
+41a4 trial_bed{string} 143m13 146r30
+42r4 tmp_unbounded_str{17|88R9} 137m10 138r32 139r31 143r36
+43a4 tmp_char{string}
+44r4 spaced_str{17|88R9}
+45r4 all_info{17|88R9}
+49b4 testing_Flag{boolean} 57r7
+52b4 symm{boolean} 98m16 115r109 119r114 123r112
+53i4 symm_mode{integer} 90r13 92m10 93r15
+145i17 I{integer} 146r24 146r40
+150i20 I{integer} 151r72 152r49 153r49
+X 26 overall.ads
+1K9*overall 25|11w6 22r14 25r15 27r13 151r31 26|23e12
+4f7*lon{float} 25|151r75
+5f7*lat{float} 25|152r52
+6f7*alt{float} 25|153r52
+9A9*Coordinate_Store(3R9)<integer> 25|27r21
+10A9*Dist_Store(float)<integer> 25|22r22
+11A9*Theta_Store(float)<integer> 25|25r23
+20V13*remove_spaces{string} 25|151s39
+X 27 system.ads
+67M9*Address
+X 40 s-memory.ads
+53V13*Alloc{27|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{27|67M9} 105i<c,__gnat_realloc>22
+X 48 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 61 terrapiatta.ads
+3K9*terrapiatta 25|7w6 115r22 61|14e16
+5V13*terra_piatta{26|9A9} 25|115s34
+X 62 tests.ads
+2K9*tests 25|10w6 60r7 62|8e10
+4U14*run_test 25|60s13
+4f23 start_lon{float} 25|60r22
+4f44 start_lat{float} 25|61r22
+4f65 start_theta{float} 25|62r22
+5a23 dist_arr{26|10A9} 25|63r22
+5a48 theta_arr{26|11A9} 25|64r22
+X 64 vincenty.ads
+2K9*vincenty 25|9w6 123r23 64|12e13
+4V13*vincenty_distance{26|9A9} 25|123s32
+

@@ -1,0 +1,206 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tests%b		tests.adb		b2025cb3 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W haversine%s		haversine.adb		haversine.ali
+W overall%s		overall.adb		overall.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terrapiatta%s		terrapiatta.adb		terrapiatta.ali
+W tests%s		tests.adb		tests.ali
+W vincenty%s		vincenty.adb		vincenty.ali
+
+U tests%s		tests.ads		6dfe5f65 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W overall%s		overall.adb		overall.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D haversine.ads		20231116141540 195b35b6 haversine%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-conca5.ads		20210520051132 875e432e system.concat_5%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D terrapiatta.ads	20231116141454 86ee166e terrapiatta%s
+D tests.ads		20231115113754 b31771dd tests%s
+D tests.adb		20231116143518 5ff1bff9 tests%b
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D vincenty.ads		20231116141518 0281547c vincenty%s
+G a e
+G c Z s b [run_test tests 4 14 none]
+G c Z s b [add_to_kml tests 6 14 none]
+G r s Tcoordinate_storeB [run_test tests 4 14 none] [Tcoordinate_storeBIP overall 9 4 none]
+G r c none [run_test tests 4 14 none] [terra_piatta terrapiatta 5 13 none]
+G r c none [run_test tests 4 14 none] [remove_spaces overall 20 13 none]
+G r c none [run_test tests 4 14 none] [haversine_distance haversine 5 13 none]
+G r c none [run_test tests 4 14 none] [vincenty_distance vincenty 4 13 none]
+G r c none [add_to_kml tests 6 14 none] [remove_spaces overall 20 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 51|1r6 1r23 2r6 3r5 4r6 4r33
+X 7 a-numeri.ads
+16K13*Numerics 35e17 51|2r10 3r9
+X 8 a-nuelfu.ads
+18K22*Elementary_Functions[9|39] 51|2w19 3r18
+X 11 a-string.ads
+16K13*Strings 35e16 51|4r10 4r37
+X 14 a-strunb.ads
+83K21*Unbounded 765e26 51|4w18 4r45
+88R9*Unbounded_String<5|43R9> 744e15 51|60r27 62r20 63r18
+91r4*Null_Unbounded_String{88R9} 51|60r47 62r40 63r38
+93V13*Length{natural} 51|74s24
+104V13*To_Unbounded_String{88R9} 51|72s31
+117V13*To_String{string} 51|73s22 78s26
+X 17 a-textio.ads
+58K13*Text_IO 725e16 51|1w10 1r27
+65P9*File_Type 51|54r11 55r12
+67n23*In_File{67E9} 51|69r16
+67n32*Out_File{67E9} 51|67r15
+112U14*Open 51|67s7 69s7
+127U14*Close 51|94s7 95s7
+144U14*Reset 51|68s7
+310V13*End_Of_File{boolean} 51|70s17
+490V13*Get_Line{string} 51|72s51
+496U14*Put_Line 51|73s10 86s19
+506U14*Put_Line 51|18s7 29s7 40s7
+X 19 haversine.ads
+3K9*haversine 13e14 51|6w6 30r17
+5V13*haversine_distance{22|9A9} 51|30s27
+5f32 d{float} 51|30r46
+6f32 t{float} 51|31r46
+7f32 o_x{float} 51|32r46
+8f32 o_y{float} 51|33r46
+9a32 dist_arr{22|10A9} 51|34r46
+10a32 theta_arr{22|11A9} 51|35r46
+11b32 symm{boolean} 51|36r46
+X 22 overall.ads
+1K9*overall 23e12 50|1w6 1r19 51|9w6 16r16 86r31
+4f7*lon{float} 51|86r75
+5f7*lat{float} 51|87r52
+6f7*alt{float} 51|88r52
+9A9*Coordinate_Store(3R9)<integer> 50|6r74 51|16r24 53r74
+10A9*Dist_Store(float)<integer> 50|5r36 51|14r36
+11A9*Theta_Store(float)<integer> 50|5r62 51|14r62
+20V13*remove_spaces{string} 51|86s39
+X 23 system.ads
+67M9*Address
+X 34 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 42 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 49 terrapiatta.ads
+3K9*terrapiatta 14e16 51|5w6 19r17
+5V13*terra_piatta{22|9A9} 51|19s29
+5f26 d{float} 51|19r42
+6f26 t{float} 51|20r42
+7f26 o_x{float} 51|21r42
+8f26 o_y{float} 51|22r42
+9a26 dist_arr{22|10A9} 51|23r42
+10a26 theta_arr{22|11A9} 51|24r42
+11b26 symm{boolean} 51|25r42
+X 50 tests.ads
+2K9*tests 8l5 8e10 51|8w6 11b14 98l5 98t10
+4U14*run_test 4>23 4>44 4>65 5>23 5>48 51|13b14 51l8 51t16
+4f23 start_lon{float} 51|13b23 21r55 32r59 43r57
+4f44 start_lat{float} 51|13b44 22r55 33r59 44r57
+4f65 start_theta{float} 51|13b65 20r55 31r59 42r57
+5a23 dist_arr{22|10A9} 51|14b23 23r55 34r59 45r57
+5a48 theta_arr{22|11A9} 51|14b48 24r55 35r59 46r57
+6U14*add_to_kml 6>25 6>44 6>66 51|27s7 38s7 49s7 53b14 96l8 96t18
+6a25 File_Name{string} 51|53b25 67r25
+6a44 General_File{string} 51|53b44 69r25
+6a66 result{22|9A9} 51|53b66 86r65 87r42 88r42
+X 51 tests.adb
+16a7 result{22|9A9} 19m7 27r52 30m7 38r48 41m7 49r49
+54p7 F{17|65P9} 67m12 67r12 68m13 68r13 73r19 86r28 95m13 95r13
+55p7 Fg{17|65P9} 69m12 69r12 70r29 72r60 94m13 94r13
+56i7 wanted_len{integer} 74m10 76r13
+57a7 wanted_str{string} 84r26
+58a7 str_bed{string} 81m16 84r16
+59a7 trial_bed{string} 78m13 81r30
+60r7 tmp_unbounded_str{14|88R9} 72m10 73r32 74r31 78r36
+61a7 tmp_char{string}
+62r7 spaced_str{14|88R9}
+63r7 all_info{14|88R9}
+80i17 I{integer} 81r24 81r40
+85i20 I{integer} 86r72 87r49 88r49
+X 53 vincenty.ads
+2K9*vincenty 51|7w6 41r17 53|12e13
+4V13*vincenty_distance{22|9A9} 51|41s26
+4f31 d{float} 51|41r44
+5f31 t{float} 51|42r44
+6f31 o_x{float} 51|43r44
+7f31 o_y{float} 51|44r44
+8a31 dist_arr{22|10A9} 51|45r44
+9a31 theta_arr{22|11A9} 51|46r44
+10b31 symm{boolean} 51|47r44
+

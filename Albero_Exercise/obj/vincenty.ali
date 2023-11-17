@@ -1,0 +1,167 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U vincenty%b		vincenty.adb		963357ce NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W overall%s		overall.adb		overall.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+
+U vincenty%s		vincenty.ads		dc687ac4 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W overall%s		overall.adb		overall.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D vincenty.ads		20231116141518 0281547c vincenty%s
+D vincenty.adb		20231116143540 06cd82db vincenty%b
+G a e
+G c Z s b [vincenty_distance vincenty 4 13 none]
+G r s Tcoordinate_storeB [vincenty_distance vincenty 4 13 none] [Tcoordinate_storeBIP overall 9 4 none]
+G r s coordinate [vincenty_distance vincenty 4 13 none] [coordinateIP overall 3 9 none]
+G r c none [vincenty_distance vincenty 4 13 none] [deg_to_rad overall 13 13 none]
+G r c none [vincenty_distance vincenty 4 13 none] [rad_to_deg overall 14 13 none]
+G r c none [vincenty_distance vincenty 4 13 none] [handle_lat overall 15 13 none]
+G r c none [vincenty_distance vincenty 4 13 none] [handle_lon overall 16 13 none]
+G r c none [vincenty_distance vincenty 4 13 none] [update_vars overall 17 14 none]
+G r c none [vincenty_distance vincenty 4 13 none] [print_coors overall 21 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 42|1r6 1r23 2r6 2r29 3r6 4r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[14|46] 42|2w10 2r33
+X 5 a-numeri.ads
+16K13*Numerics 35e17 42|3r10 4r9
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 42|3w19 4r18
+X 7 a-ngelfu.ads
+52V13*Sqrt{float} 42|69s23[6|18] 97s106[6|18]
+94V13*Sin{float} 42|65s21[6|18] 86s32[6|18] 88s63[6|18] 88s79[6|18] 94s23[6|18]
+. 97s60[6|18] 100s26[6|18] 100s87[6|18] 102s81[6|18]
+104V13*Cos{float} 42|66s21[6|18] 85s25[6|18] 86s71[6|18] 94s49[6|18] 97s34[6|18]
+. 100s61[6|18] 103s80[6|18]
+114V13*Tan{float} 42|68s38[6|18]
+147V13*Arctan{float} 42|72s22[6|18] 97s21[6|18] 100s19[6|18]
+X 13 a-textio.ads
+58K13*Text_IO 725e16 42|1w10 1r27
+506U14*Put_Line 42|114s13 115s13 116s13 117s13 118s13 119s13 120s13 121s13
+. 122s13 123s13 124s13 125s13 126s13 127s13 128s13
+X 18 overall.ads
+1K9*overall 23e12 41|1w6 1r19 42|5w6 5r19
+3R9*Coordinate 7e14 42|23r24 29r21 30r20 36r75
+4f7*lon{float} 42|57m23 57r54 106r34 107m22 111m22 111r63
+5f7*lat{float} 42|56m23 56r54 68r55 98m22 110m22 110r63
+9A9*Coordinate_Store(3R9)<integer> 41|10r56 42|15r56 18r20
+10A9*Dist_Store(float)<integer> 41|8r44 42|13r44
+11A9*Theta_Store(float)<integer> 41|9r45 42|14r45
+13V13*deg_to_rad{float} 42|56s30 57s30 59s17
+14V13*rad_to_deg{float} 42|110s40 111s40
+15V13*handle_lat{float} 42|110s29
+16V13*handle_lon{float} 42|111s29
+17U14*update_vars 42|131s10
+21U14*print_coors 42|149s7
+X 41 vincenty.ads
+2K9*vincenty 12l5 12e13 42|7b14 156l5 156t13
+4V13*vincenty_distance{18|9A9} 4>31 5>31 6>31 7>31 8>31 9>31 10>31 42|9b13
+. 152l8 152t25
+4f31 d{float} 42|9b31 21r31
+5f31 t{float} 42|10b31 22r32
+6f31 o_x{float} 42|11b31 23r39
+7f31 o_y{float} 42|12b31 23r43
+8a31 dist_arr{18|10A9} 42|13b31 145r50
+9a31 theta_arr{18|11A9} 42|14b31 144r50
+10b31 symm{boolean} 42|15b31
+X 42 vincenty.adb
+18a7 coor_store{18|9A9} 142m7 144m10 149r19 151r14
+21f7 dist{float} 50r25 52r25
+22f7 theta{float} 38r24
+23r7 origin{18|3R9} 29r35 142r24
+26f7 R{float} 63r25 63r43 75r29 75r31
+29r7 current_coor{18|3R9} 56m10 56r41 57m10 57r41 68r42 106r21 131m22 134r17
+30r7 future_coor{18|3R9} 98m10 107m10 110m10 110r51 111m10 111r51 131m36
+. 131r36
+33b7 DEBUG{boolean} 113r13
+36V16 calc_coord{18|3R9} 36b16 36>27 36>48 136l11 136t21 144s26
+36f27 theta_add{float} 38r32 144r37
+36f48 dist_add{float} 49r13 52r32 145r37
+38f10 dir{float} 59m10 59r28 65r25 66r25
+39f10 dist_tmp{float} 50m13 52m13 81r24 91r28
+41f10 flattening{float} 63m10 68r26 97r92 101r15 101r50 102r42 114r51
+42f10 len_minor_axis{float} 63r27 75r37 75r52 75r70 75r85 81r34 91r37
+43f10 sin_ber{float} 65m10 73r27 100r44 115r55
+43f19 cos_ber{float} 66m10 72r36 94r67 97r78 100r105 116r55
+43f28 tan_U{float} 68m10 69r34 69r40 70r19 72r29 117r46
+43f35 cos_U{float} 69m10 70r27 73r19 94r41 97r52 100r53 118r46
+43f42 sin_U{float} 70m10 94r15 97r28 100r79 119r46
+43f49 sin_a{float} 73m10 74r28 74r34 97r111 97r117 102r55 121r46
+43f56 cos_2_a{float} 74m10 75r17 101r33 101r75 122r46
+43f65 u_2{float} 75m10 77r23 77r49 77r65 77r86 78r16 78r40 78r57 78r78 123r43
+43f70 ang_dist{float} 72m10 85r33 120r49
+43f80 ang_dist_2{float} 81m10 84r20 85r43 86r36 86r75 88r67 88r83 90r27 91m13
+. 94r27 94r53 97r38 97r64 100r30 100r65 100r91 102r64 102r85 103r84 126r53
+43f92 ang_dist_3{float} 82m10 84r31 90m13 126r64
+43f104 A{float} 77m10 81r49 91r52 124r42
+43f107 B{float} 78m10 86r28 86r62 87r87 125r42
+44f10 cos_dist{float} 85m13 86r51 87r66 87r75 87r95 89r63 89r72 103r66 104r81
+. 104r92
+44f20 change_dist{float} 86m13 91r57
+44f33 x{float} 94m10 97r125 97r129
+44f36 C{float} 101m10 102r37 102r77 103r77
+44f39 lamda{float} 100m10 102r22
+44f46 lon_diff{float} 102m10 106r40
+45f10 tmp_lon{float} 106m10 107r29 128r53
+45f19 tmp_lat{float} 97m10 98r29 127r49
+143i11 I{integer} 144r21 144r60 145r59
+

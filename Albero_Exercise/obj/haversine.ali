@@ -1,0 +1,130 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U haversine%b		haversine.adb		c3f49576 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W overall%s		overall.adb		overall.ali
+
+U haversine%s		haversine.ads		c7b21b0e EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W overall%s		overall.adb		overall.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D haversine.ads		20231116141540 195b35b6 haversine%s
+D haversine.adb		20231116143232 48d021a9 haversine%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [haversine_distance haversine 5 13 none]
+G r s Tcoordinate_storeB [haversine_distance haversine 5 13 none] [Tcoordinate_storeBIP overall 9 4 none]
+G r s coordinate [haversine_distance haversine 5 13 none] [coordinateIP overall 3 9 none]
+G r c none [haversine_distance haversine 5 13 none] [deg_to_rad overall 13 13 none]
+G r c none [haversine_distance haversine 5 13 none] [rad_to_deg overall 14 13 none]
+G r c none [haversine_distance haversine 5 13 none] [handle_lat overall 15 13 none]
+G r c none [haversine_distance haversine 5 13 none] [handle_lon overall 16 13 none]
+G r c none [haversine_distance haversine 5 13 none] [update_vars overall 17 14 none]
+G r c none [haversine_distance haversine 5 13 none] [print_coors overall 21 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r23 2r6 2r29 3r6 4r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[14|46] 17|2w10 2r33
+X 5 a-numeri.ads
+16K13*Numerics 35e17 17|3r10 4r9
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 17|3w19 4r18
+X 7 a-ngelfu.ads
+94V13*Sin{float} 17|56s36[6|18] 59s37[6|18] 63s55[6|18] 64s56[6|18] 67s56[6|18]
+. 68s56[6|18]
+104V13*Cos{float} 17|57s37[6|18] 58s37[6|18] 60s37[6|18] 65s56[6|18] 66s55[6|18]
+131V13*Arcsin{float} 17|56s29[6|18]
+147V13*Arctan{float} 17|63s48[6|18]
+X 13 a-textio.ads
+58K13*Text_IO 725e16 17|1w10 1r27
+X 16 haversine.ads
+3K9*haversine 13l5 13e14 17|7b14 99l5 99t14
+5V13*haversine_distance{20|9A9} 5>32 6>32 7>32 8>32 9>32 10>32 11>32 17|9b13
+. 97l8 97t26
+5f32 d{float} 17|9b32 21r31
+6f32 t{float} 17|10b32 22r32
+7f32 o_x{float} 17|11b32 23r39
+8f32 o_y{float} 17|12b32 23r43
+9a32 dist_arr{20|10A9} 17|13b32 89r50
+10a32 theta_arr{20|11A9} 17|14b32 88r50
+11b32 symm{boolean} 17|15b32
+X 17 haversine.adb
+18a7 coor_store{20|9A9} 86m7 88m10 93r19 95r14
+21f7 dist{float} 44r25 46r25
+22f7 theta{float} 38r24
+23r7 origin{20|3R9} 29r35 86r24
+26f7 R{float} 57r50 59r50 64r69 66r68
+29r7 current_coor{20|3R9} 50m10 50r41 51m10 51r41 56r40 58r41 63r29 65r60
+. 67r60 75m22 78r17
+30r7 future_coor{20|3R9} 56m10 63m10 68r60 70m10 70r51 71m10 71r51 75m36
+. 75r36
+33b7 DEBUG{boolean}
+36V16 calc_coord{20|3R9} 36b16 36>27 36>48 80l11 80t21 88s26
+36f27 theta_add{float} 38r32 88r37
+36f48 dist_add{float} 43r13 46r32 89r37
+38f10 dir{float} 53m10 53r28 60r41 63r59
+39f10 dist_tmp{float} 44m13 46m13 57r41 59r41 64r60 66r59
+87i11 I{integer} 88r21 88r60 89r59
+X 20 overall.ads
+1K9*overall 16|1w6 1r19 17|5w6 5r19 20|23e12
+3R9*Coordinate 17|23r24 29r21 30r20 36r75 20|7e14
+4f7*lon{float} 17|51m23 51r54 63m22 63r42 71m22 71r63
+5f7*lat{float} 17|50m23 50r54 56m22 56r53 58r54 65r73 67r73 68r72 70m22 70r63
+9A9*Coordinate_Store(3R9)<integer> 16|11r57 17|15r57 18r20
+10A9*Dist_Store(float)<integer> 16|9r45 17|13r45
+11A9*Theta_Store(float)<integer> 16|10r46 17|14r46
+13V13*deg_to_rad{float} 17|50s30 51s30 53s17
+14V13*rad_to_deg{float} 17|70s40 71s40
+15V13*handle_lat{float} 17|70s29
+16V13*handle_lon{float} 17|71s29
+17U14*update_vars 17|75s10
+21U14*print_coors 17|93s7
+

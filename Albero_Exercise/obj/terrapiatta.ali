@@ -1,0 +1,148 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U terrapiatta%b		terrapiatta.adb		69e670bb NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W overall%s		overall.adb		overall.ali
+W simmetria%s		simmetria.adb		simmetria.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U terrapiatta%s		terrapiatta.ads		580738d6 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W overall%s		overall.adb		overall.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D overall.ads		20231115140230 dee92eb8 overall%s
+D simmetria.ads		20231117131422 63eddceb simmetria%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D terrapiatta.ads	20231116141454 86ee166e terrapiatta%s
+D terrapiatta.adb	20231117132826 1e9a3b57 terrapiatta%b
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [terra_piatta terrapiatta 5 13 none]
+G r s Tcoordinate_storeB [terra_piatta terrapiatta 5 13 none] [Tcoordinate_storeBIP overall 9 4 none]
+G r s coordinate [terra_piatta terrapiatta 5 13 none] [coordinateIP overall 3 9 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [deg_to_rad overall 13 13 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [handle_lat overall 15 13 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [handle_lon overall 16 13 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [update_vars overall 17 14 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [calculate_symmetry_two simmetria 5 13 none]
+G r c none [terra_piatta terrapiatta 5 13 none] [print_coors overall 21 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 44|1r6 1r23 2r6 2r29 3r6 3r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[14|46] 44|2w10 2r33
+X 5 a-numeri.ads
+16K13*Numerics 35e17 44|3r10 3r49
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 44|3w19 3r58
+X 7 a-ngelfu.ads
+94V13*Sin{float} 44|54s68[6|18]
+104V13*Cos{float} 44|51s68[6|18]
+X 13 a-textio.ads
+58K13*Text_IO 725e16 44|1w10 1r27
+506U14*Put_Line 44|74s13
+X 18 overall.ads
+1K9*overall 23e12 43|1w6 1r19 44|4w6 4r19
+3R9*Coordinate 7e14 44|23r24 26r21 27r20 33r75
+4f7*lon{float} 44|54m22 54r53
+5f7*lat{float} 44|51m22 51r53
+9A9*Coordinate_Store(3R9)<integer> 43|11r51 44|15r51 18r20
+10A9*Dist_Store(float)<integer> 43|9r39 44|13r39
+11A9*Theta_Store(float)<integer> 43|10r40 44|14r40
+13V13*deg_to_rad{float} 44|48s17
+15V13*handle_lat{float} 44|51s29
+16V13*handle_lon{float} 44|54s29
+17U14*update_vars 44|56s10
+21U14*print_coors 44|97s7
+X 19 simmetria.ads
+2K9*simmetria 6e14 44|5w6 75r30 81r28
+5V13*calculate_symmetry_two{18|3R9} 44|75s40 81s38
+5f37 dist{float} 44|75r63 81r61
+5f51 theta{float} 44|76r63 82r61
+5f65 current_dist{float} 44|77r63 83r61
+5r86 current_coor{18|3R9} 44|78r63 84r61
+X 43 terrapiatta.ads
+3K9*terrapiatta 14l5 14e16 44|7b14 102l5 102t16
+5V13*terra_piatta{18|9A9} 5>26 6>26 7>26 8>26 9>26 10>26 11>26 44|9b13 100l8
+. 100t20
+5f26 d{float} 44|9b26 21r31 75r79 81r77
+6f26 t{float} 44|10b26 22r32 76r79 82r77
+7f26 o_x{float} 44|11b26 23r39
+8f26 o_y{float} 44|12b26 23r43
+9a26 dist_arr{18|10A9} 44|13b26 69r53 74r80 77r79 91r53
+10a26 theta_arr{18|11A9} 44|14b26 68r53 90r53
+11b26 symm{boolean} 44|15b26 65r10
+X 44 terrapiatta.adb
+18a7 coor_store{18|9A9} 66m10 68m13 75m13 78r79 81m10 84r77 85m10 85r28 88m10
+. 90m13 97r19 99r14
+21f7 dist{float} 41r25 43r25
+22f7 theta{float} 35r24
+23r7 origin{18|3R9} 26r35 66r27 88r27
+26r7 current_coor{18|3R9} 51r40 54r40 56m22 58r17
+27r7 future_coor{18|3R9} 51m10 54m10 56m36 56r36
+30i7 dec{integer} 74r91 77r90 78r92 79m13 79r20
+33V16 calc_coord{18|3R9} 33b16 33>27 33>48 60l11 60t21 68s29 90s29
+33f27 theta_add{float} 35r32 68r40 90r40
+33f48 dist_add{float} 40r13 43r32 69r40 91r40
+35f10 dir{float} 48m10 48r28 51r72 54r72
+36f10 dist_tmp{float} 41m13 43m13 45m10 45r22 51r59 54r59
+67i14 I{integer} 68r24 68r63 69r62
+72i14 I{integer} 74r53 74r89 75r24 77r88 78r90
+89i14 I{integer} 90r24 90r63 91r62
+
